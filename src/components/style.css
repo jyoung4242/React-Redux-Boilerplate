@@ -1,0 +1,31 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.dispatches {
+  width: 50%;
+  border: 1px solid black;
+  margin-right: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.indicators {
+  width: 50%;
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
